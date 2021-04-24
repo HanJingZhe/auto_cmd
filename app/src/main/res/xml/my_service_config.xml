@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<accessibility-service xmlns:android="http://schemas.android.com/apk/res/android"
+    android:accessibilityEventTypes="typeAllMask"
+    android:accessibilityFeedbackType="feedbackGeneric"
+    android:canRetrieveWindowContent="true"
+    android:description="@string/auto_reply_description"
+    android:notificationTimeout="100"
+    android:packageNames="com.tencent.mm" />
+
+
+    <!--// 指定接收事件类型，typeAllMask代表全部都接收-->
+    <!--// 反馈方式-->
+    <!--// 是否能获取活动窗口内容，这个很重要哦-->
+   <!-- // 对服务的描述-->
+   <!-- // 响应事件的间隔，单位为毫秒-->
+  <!--  // 指定监听的应用程序的包名，这里我指定了微信的包名-->
+

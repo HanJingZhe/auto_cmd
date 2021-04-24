@@ -1,0 +1,3 @@
+rootProject.name = "auto_cmd"
+include ':app'
+include ':base_lib'
